@@ -18,7 +18,7 @@ def register(request):
 def profile(request):
     u_form = UserUpdateForm()
     p_form = profileUpdateForm()
-    return render(request,'users/profile.html')
+    
 
     context = {
         'u_form':u_form,
